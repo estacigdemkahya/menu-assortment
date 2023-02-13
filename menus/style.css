@@ -1,0 +1,160 @@
+/*Dikey Menü*/
+.nav-one {
+    width: 130px;
+    height: 160px;
+    margin: 10px 0 0 0;
+}
+
+.nav-one ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-one ul li a {
+    text-decoration: none;
+    color: #930;
+    font-weight: 700;
+    display: block;
+    width: 125px;
+    height: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fcc;
+    padding: 10px 0 0 5px;
+    
+}
+
+.nav-one ul li a:hover {
+    background: #930;
+    color: #fcc;
+}
+
+
+/*Yatay Menü*/
+.nav-section {
+    width: 600px;
+    height: 32px;
+    margin: 30px 0 0 0;
+}
+
+.nav-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-section ul li {
+    float: left;
+}
+
+.nav-section ul li a {
+    text-decoration: none;
+    color: #930;
+    font-weight: 700;
+    display: block;
+    width: 100px;
+    height: 32px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fcc;
+    padding: 10px 0 0 5px;   
+}
+
+.nav-section ul li a:hover {
+    background: #930;
+    color: #fcc;
+}
+
+/*Yana Açılır Dikey Menü*/
+.nav-dropdown {
+    width: 152px;
+    height: 170px;
+    margin: 30px 0 0 0;
+}
+
+
+.nav-dropdown ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-dropdown ul li a {
+    text-decoration: none;
+    color: #930;
+    font-weight: 700;
+    display: block;
+    width: 160px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #fcc;
+    padding: 10px 5px;     
+    border: 1px solid #930;
+}
+
+.nav-dropdown ul li a:hover {
+    background: #930;
+    color: #fcc;
+}
+
+.nav-dropdown ul li {
+    position: relative; /*Göreceli konumlandırma*/
+}
+
+.nav-dropdown ul li ul {
+    display: none;   
+    position: absolute; /*Sayfayı baz alarak konumlandırır*/
+    left: 172px;
+    top: 0;
+}
+
+.nav-dropdown ul li:hover ul {
+    display: block;
+
+}
+
+/*Yatay aşağı açılır menü*/
+.nav-dropdown-section {
+    width: 610px;
+    height: 150px;
+    margin: 50px 0 0 0;    
+}
+
+.nav-dropdown-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav-dropdown-section ul li {
+    float: left;
+    position: relative;  /*birbirinizi takip edin o şekilde konumlanın demek istiyorum*/
+}
+
+.nav-dropdown-section ul li a {
+    display: block;
+    width: 120px;
+    background: #fcc;
+    color: #930;
+    font: bold 12px tahoma;
+    text-decoration: none;
+    padding: 9px 0;
+    border: 1px solid #930;
+    text-align: center;
+}
+
+.nav-dropdown-section ul li a:hover {
+    background: #930;   
+    color: #fcc;
+}
+
+.nav-dropdown-section ul li ul {
+    display: none;   
+    position: absolute;
+    left: 0;
+    top: 34px;
+}
+
+.nav-dropdown-section ul li:hover ul {
+    display: block;
+}
